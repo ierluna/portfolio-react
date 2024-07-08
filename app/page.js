@@ -1,8 +1,10 @@
+import HeroSection from "./components/HeroSection"
+
 export default function Home() {
   return (<>
-    <div>
-    Dummy code to test if working
-    </div>
+    <main className="flex min-h-screen flex-col bg-[#121212] container">
+      <HeroSection />
+    </main>
     </>
   );
 }
